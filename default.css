@@ -291,7 +291,6 @@ h6 { font-size: 22px;}
     padding-bottom: 20px;
 }
 
-
 .post {
     border: 1px solid var(--borderColor);
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
@@ -424,4 +423,12 @@ h6 { font-size: 22px;}
 		width: 280px;
 	}
 
+}
+
+@media screen and (min-width: 1053px){
+    .last {
+        width: 320px;
+        height: 372px;
+         grid-column: 1 / -1;
+        }
 }

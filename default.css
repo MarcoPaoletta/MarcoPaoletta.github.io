@@ -268,14 +268,26 @@ h6 { font-size: 22px;}
 
 #skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
+    grid-template-columns: repeat(auto-fit, 275px);
     justify-content: center;
+    margin: 0 auto;
     background-color: var(--previewShadow);
-    padding-bottom: 30px;
+    padding: 15px;
+    width: 90%;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 .skill-title {
-    margin-top: -5px; 
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.skill-element {
+    font-size: 22px;
 }
 
 .about-me {
@@ -425,10 +437,16 @@ h6 { font-size: 22px;}
 
 }
 
-@media screen and (min-width: 1053px){
-    .last {
-        width: 320px;
-        height: 372px;
-         grid-column: 1 / -1;
-        }
+@media screen and (min-width: 944px){
+    #skills {
+        grid-template-columns: repeat(auto-fit, 200px);
+    }
+
+    .skill-title {
+        font-size: 22px;
+    }
+
+    .skill-element {
+        font-size: 17px;
+    }
 }

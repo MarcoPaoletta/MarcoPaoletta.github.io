@@ -71,6 +71,25 @@ h6 { font-size: 22px;}
 	overflow:auto;
 }
 
+#go-up-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e62739;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#go-up-button:active {
+    background: #cc2333;
+}
+
 .main-container {
 	width: 1200px;
 	margin: 0 auto;

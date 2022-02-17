@@ -269,10 +269,10 @@ h6 { font-size: 22px;}
 #skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, 275px);
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0 auto;
     background-color: var(--previewShadow);
-    padding: 15px;
+    padding: 0;
     width: 90%;
     border-radius: 20px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -282,12 +282,11 @@ h6 { font-size: 22px;}
 
 .skill-title {
     margin: 0;
-    font-size: 25px;
     padding-bottom: 8px;
 }
 
 .skill-element {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .about-me {
@@ -295,8 +294,8 @@ h6 { font-size: 22px;}
 }
 
 .post-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -304,6 +303,7 @@ h6 { font-size: 22px;}
 }
 
 .post {
+    width: 320px;
     border: 1px solid var(--borderColor);
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);

@@ -84,6 +84,7 @@ h6 { font-size: 22px;}
     border: none;
     outline: none;
     cursor: pointer;
+    z-index: 20;
 }
 
 #go-up-button:active {

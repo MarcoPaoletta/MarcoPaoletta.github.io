@@ -107,7 +107,7 @@ a.active {
 
 .presentation {
     max-width: 1100px;
-    height: 100vh;
+    height: 100vh;  
     margin: auto;
     color: #ffffff;
     display: flex;
@@ -220,73 +220,6 @@ a.active {
     color: #565656;
 }
 
-/* MY JOURNEY AS A PROGRAMMER */
-#journey {
-    padding: 35px;
-    text-align: center;
-    background-color: #f3f3f3;
-}
-
-.journey-main-title {
-    font-size: 35px;   
-    color: #111135;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 3px;
-}
-
-.journey-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    gap: 20px;
-    max-width: 1200px;
-    margin-top: 30px;
-}
-
-.journey {
-    max-width: 350px;
-    background-color: #fff;
-    padding: 10px;
-    margin: 0 5px;
-    border-radius: 10px;
-    transition: .3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.journey-icon {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #d3d3d3;
-    padding: 20px;
-    margin-bottom: 15px;
-}
-
-.journey-icon-image {
-    transform: scale(2.5, 2.5);
-}
-
-.journey-title {
-    font-size: 23px;   
-    margin-bottom: 15px;
-}
-
-.journey-hr {
-    width: 50%;
-    margin: auto;
-    color: #000;
-    margin-bottom: 15px;
-}
-
-.journey-paragraph {
-    font-size: 16px;
-    line-height: 22px;
-}
-
 /* SKILLS */
 .skills {
     background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("/images/background-skills.jpg");
@@ -355,6 +288,8 @@ a.active {
 }
 
 .project {
+    width: 400px;
+    height: 210px;
     transition: .3s;
     border-radius: 8px;
     position: relative;

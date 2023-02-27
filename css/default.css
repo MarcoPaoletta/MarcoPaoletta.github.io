@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@font-face {
+    font-family: "TheImpostor";
+    src: url(/fonts/Minecraft.ttf);
+}
 
 * {
 	padding: 0;
 	margin: 0;
+    letter-spacing: 2px;
+    font-weight: 550;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "TheImpostor";
 }
 
 html {

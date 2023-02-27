@@ -188,11 +188,12 @@ a.active {
 }
 
 .about-me {
-    margin: 0 40px;
+    margin: auto 40px;
 }
 
 .about-me-title {
-    font-size: 35px;   
+    font-size: 35px;  
+    margin-bottom: 7px; 
     color: #111135;
     text-transform: uppercase;
     text-decoration: underline;
@@ -200,23 +201,8 @@ a.active {
     text-decoration-thickness: 3px;
 }
 
-.about-me-name-subtitle {
-    font-size: 34px;
-    font-weight: bold;
-    margin: 10px 0;
-    letter-spacing: 2px;
-}
-
 .about-me-name-span {
     color: #ff5080;
-}
-
-.about-me-developer-title {
-    font-size: 22px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
 }
 
 .about-me-developer-paragraph {

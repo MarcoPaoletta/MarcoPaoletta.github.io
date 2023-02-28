@@ -256,7 +256,7 @@ a.active {
 .project-subtitle {
     letter-spacing: 3px;
     text-align: center;
-    padding-bottom: 25px;
+    padding-top: 25px;
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
@@ -274,6 +274,7 @@ a.active {
 .project-row {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
 }
@@ -285,7 +286,6 @@ a.active {
     border-radius: 8px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 35px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
 }
 
@@ -499,11 +499,6 @@ a.active {
     
     .project {
         margin-bottom: 15px;
-    }
-
-    .project-row {
-        flex-direction: column;
-        gap: 0;
     }
 }
 

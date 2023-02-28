@@ -276,7 +276,7 @@ a.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 35px;
+    gap: 20px;
 }
 
 .project {
@@ -495,10 +495,6 @@ a.active {
     .about-me-name-subtitle {
         font-size: 25px;
         text-align: center;
-    }
-    
-    .project {
-        margin-bottom: 15px;
     }
 }
 

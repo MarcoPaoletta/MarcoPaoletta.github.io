@@ -276,12 +276,12 @@ a.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 32px;
 }
 
 .project {
     width: 221px;
-    height: 492px;
+    height: 390px;
     transition: .3s;
     border-radius: 8px;
     position: relative;

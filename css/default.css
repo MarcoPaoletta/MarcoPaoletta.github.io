@@ -275,7 +275,7 @@ a.active {
     padding-bottom: 25px;
 }
 
-.project-subtitle {
+.every-project-in-github {
     letter-spacing: 3px;
     text-align: center;
     padding-top: 25px;
@@ -289,7 +289,7 @@ a.active {
     text-decoration: none;
     color: #000;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 6.5px;
     transition: .3s;
 }
 

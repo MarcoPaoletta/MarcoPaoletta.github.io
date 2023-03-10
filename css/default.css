@@ -185,6 +185,7 @@ a.active {
     width: 100%;
     border-radius: 50px;
     background-color: #f3f3f3;
+    margin-bottom: 50px;
 }
 
 .about-me {
@@ -209,6 +210,22 @@ a.active {
     font-size: 17px;
     line-height: 25px;
     color: #565656;
+}
+
+.about-me-download-cv {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 12px 22px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    transition: .3s;
+    margin-top: 10px;
+}
+
+.about-me-download-cv:hover {
+    color: #fff;
+    background-color: #ff5080;
 }
 
 /* SKILLS */

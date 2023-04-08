@@ -181,17 +181,20 @@ a.active {
 }
 
 .photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 400px;
-    margin-right: 60px;
+    margin-right: 35px;
 }
-
+  
 .photo-container-img {
-    padding: 10px;
+    padding: 8px;
+    border-radius: 13px;
     width: 100%;
-    border-radius: 50px;
     background-color: #f3f3f3;
-    margin-bottom: 50px;
-}
+}  
 
 .about-me {
     margin: auto 40px;
@@ -496,26 +499,28 @@ a.active {
     }
 
     #about-me {
-        padding: 50px 0;
+        padding: 35px 0;
         display: block;
     }
 
     .photo-container {
         max-width: 300px;
         margin: auto;
-    }
-
-    .photo-container-img {
-        padding: 8px;
+        margin-bottom: 35px;
     }
 
     .about-me-title {
         text-align: center;
+        margin-bottom: 35px;
     }
 
     .about-me-name-subtitle {
         font-size: 25px;
         text-align: center;
+    }
+
+    .about-me-download-cv {
+        margin-top: 20px;
     }
 }
 

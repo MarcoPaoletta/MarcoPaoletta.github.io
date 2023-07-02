@@ -289,6 +289,8 @@ a.active {
     width: 100%;
     height: 150px;
     background-image: url(/images/professional_experience/Voodoo.png);
+    background-size: cover;
+    background-position: center center;
 }
 
 .professional-experience-name {

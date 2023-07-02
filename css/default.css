@@ -240,6 +240,70 @@ a.active {
     background-color: #ff5080;
 }
 
+/* PROFESSIONAL EXPERIENCE */
+.professional-experience {
+    padding: 35px;
+    background-color: #f3f3f3;
+}
+
+.professional-experience-title {
+    font-size: 35px;  
+    margin-bottom: 25px; 
+    color: #111135;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 3px;
+    text-align: center;
+}
+
+.professional-experience-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.professional-experience-element {
+    width: 360px;
+    height: 228px;
+    transition: .3s;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
+    transition: .3;
+}
+
+.professional-experience-element:hover {
+    scale: 1.075;
+}
+
+.professional-experience-a {
+    text-decoration: none;
+    color: #000;
+}
+
+.professional-experience-image {
+    width: 100%;
+    height: 150px;
+    background-image: url(/images/professional_experience/Voodoo.png);
+}
+
+.professional-experience-name {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.professional-experience-date {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;  
+}
+
 /* SKILLS */
 .skills {
     background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("/images/background-skills.jpg");

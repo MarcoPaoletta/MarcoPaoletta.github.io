@@ -641,6 +641,12 @@ a.active {
     }
 }
 
+@media screen and (max-width: 427px) {
+    .professional-experience-element {
+        height: 246.4px;
+    }
+}
+
 @media screen and (max-width:400px) {
     .project-source-code-a {
         padding: 14px 18px;

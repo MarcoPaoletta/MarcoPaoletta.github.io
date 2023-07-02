@@ -499,6 +499,23 @@ a.active {
     padding-bottom: 25px;
 }
 
+.social-networks-contact {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.social-network-contact {
+    color: #000 !important;
+    margin-right: 50px !important;
+    text-align: center !important;
+    scale: 1.65;
+}
+
+.social-network-contact:hover {
+    color: #ff5080 !important;
+}
+
 .contact-submit-button {
     margin-top: 10px;
     width: 100%;

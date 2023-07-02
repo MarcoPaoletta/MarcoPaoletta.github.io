@@ -62,7 +62,7 @@ html {
     max-width: 1100px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
 }

@@ -115,6 +115,10 @@ a.active {
     color: #ff5080;
 }
 
+.whatsapp {
+    margin-right: 15px;
+}
+
 .presentation {
     max-width: 1100px;
     height: 100vh;  

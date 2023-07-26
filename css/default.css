@@ -59,7 +59,7 @@ html {
 }
 
 .header-content {
-    max-width: 1100px;
+    max-width: 1275px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -674,7 +674,7 @@ a.active {
 }
 
 /* RESPONSIVE */
-@media screen and (max-width:983px) {
+@media screen and (max-width:1150px) {
     #links {
         display: none;
     }
@@ -705,7 +705,9 @@ a.active {
     .nav-icon {
         display: block;
     }
+}
 
+@media screen and (max-width:1083px) {
     .presentation-title {
         font-size: 40px;
     }

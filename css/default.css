@@ -306,6 +306,99 @@ a.active {
     font-size: 13px;  
 }
 
+/* CERTIFICATES */
+.certificates {
+    padding: 35px;
+    background-color: #fff;
+}
+
+.certificates-title {
+    font-size: 35px;  
+    margin-bottom: 5px; 
+    color: #111135;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 3px;
+    text-align: center;
+}
+
+.certificates-subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.certificates-section-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 27px;
+    letter-spacing: 5px;
+}
+
+.certificates-section-title2 {
+    padding: 20px;
+}
+
+.certificates-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.certificates-element {
+    width: 360px;
+    height: 278px;
+    transition: .3s;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
+    transition: .3;
+}
+
+.certificates-element:hover {
+    scale: 1.075;
+}
+
+.certificate-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.certificate-image1 {
+    background-image: url(/images/certificates/pixel-art-basic.png);
+}
+
+.certificate-image2 {
+    background-image: url(/images/certificates/pixel-art-advanced.png);
+}
+
+.certificate-image3 {
+    background-image: url(/images/certificates/essential-courses.png);
+}
+
+.certificate-image4 {
+    background-image: url(/images/certificates/unity.png);
+}
+
+.certificates-name {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.certificates-date {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;  
+}
+
 /* SKILLS */
 .skills {
     background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("/images/background-skills.jpg");

@@ -274,6 +274,7 @@ a.active {
     overflow: hidden;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
     transition: .3;
+    background-color: #ffffff;
 }
 
 .professional-experience-element:hover {

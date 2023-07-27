@@ -346,12 +346,16 @@ a.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 35px;
+}
+
+.certificates-row2 {
+    margin-top: 35px;
 }
 
 .certificates-element {
-    width: 360px;
-    height: 278px;
+    width: 350px;
+    height: 275px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
@@ -395,17 +399,14 @@ a.active {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-}
-
-.three-lines-certificates-name {
-    font-size: .8em;
+    font-size: 15px;
 }
 
 .certificates-date {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    font-size: 13px;  
+    font-size: 13.5px;  
 }
 
 /* SKILLS */

@@ -289,9 +289,16 @@ a.active {
 .professional-experience-image {
     width: 100%;
     height: 150px;
-    background-image: url(/images/professional_experience/Voodoo.png);
     background-size: cover;
     background-position: center center;
+}
+
+.professional-experience-image-voodoo {
+    background-image: url(/images/professional_experience/Voodoo.png);
+}
+
+.professional-experience-image-fiverr {
+    background-image: url(/images/professional_experience/Fiverr.png);
 }
 
 .professional-experience-name {
@@ -395,6 +402,10 @@ a.active {
     background-image: url(/images/certificates/advanced-courses.png);
 }
 
+.certificate-image6 {
+    background-image: url(/images/certificates/Fiverr.jpg);
+}
+
 .certificates-name {
     margin-right: 10px;
     margin-left: 10px;
@@ -453,19 +464,18 @@ a.active {
 
 .projects-voodoo-title {
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
     font-size: 27px;
     letter-spacing: 5px;
 }
 
-.projects-subtitle-voodoo {
-    text-align: center;
-    padding-bottom: 25px;
-    font-size: 15px;
-}
-
 .project-circle-combat {
     margin-bottom: 30px;
+}
+
+.shake-it-and-find-it-gameplay {
+    background-image: url(/images/relevant_projects/ShakeItAndFindIt.gif);
+    background-size: cover;   
 }
 
 .circle-combat-gameplay {
@@ -544,6 +554,11 @@ a.active {
     justify-content: center;
     align-items: center;
     font-size: 23px;
+}
+
+.shake-it-and-find-it-icon {
+    background-image: url(/images/relevant_projects/ShakeItAndFindItIcon.png);
+    background-size: cover;    
 }
 
 .circle-combat-icon {

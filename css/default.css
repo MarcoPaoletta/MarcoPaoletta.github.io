@@ -769,6 +769,28 @@ a.active {
     }
 }
 
+@media screen and (max-width:414px) {
+    .long-certificates-name {
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .project-source-code-a {
+        padding: 14px 18px;
+        font-size: 13px;
+    }
+    .project-name {
+        font-size: 23px;
+    }
+    .project-description {
+        font-size: 16px;
+    }  
+    .project-source-code-container {
+        margin-top: 7px;
+    } 
+}
+
 @media screen and (max-width:400px) {
     .project-source-code-a {
         padding: 14px 18px;

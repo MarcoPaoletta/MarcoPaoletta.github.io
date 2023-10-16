@@ -179,7 +179,7 @@ a.active {
 
 /* ABOUT ME */
 #about-me {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: auto;
     padding: 35px;
     display: flex;   
@@ -190,14 +190,13 @@ a.active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
-    margin-right: 35px;
+    max-width: 800px;
 }
   
 .photo-container-img {
     padding: 8px;
     border-radius: 13px;
-    width: 100%;
+    width: 80%;
     background-color: #f3f3f3;
 }  
 
@@ -223,6 +222,7 @@ a.active {
     font-size: 17px;
     line-height: 25px;
     color: #565656;
+    max-width: 1200px;
 }
 
 .about-me-download-cv {

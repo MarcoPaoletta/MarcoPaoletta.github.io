@@ -142,7 +142,7 @@ a.active {
     text-align: center;
 }
 
-.presentation-span {
+.presentation-span, .nav-icon:hover {
     color: #ff5080;
 }
 

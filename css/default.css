@@ -1,19 +1,23 @@
-@font-face {
-    font-family: "TheImpostor";
-    src: url(/fonts/Minecraft.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
 	padding: 0;
 	margin: 0;
     letter-spacing: 2px;
-    font-weight: 550;
     box-sizing: border-box;
-    font-family: "TheImpostor";
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 585;
+}
+
+p, a, ul, li {
+    font-weight: 500;
 }
 
 /* GO UP BUTTON */
@@ -77,7 +81,6 @@ html {
     text-decoration: none;
     color: #fff;
     margin: 0 12px;
-    font-weight: 400;
     transition: .3s;
 }
 
@@ -89,7 +92,6 @@ html {
     margin-left: 15px;
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
     transition: .3s;
 }
 
@@ -162,7 +164,6 @@ a.active {
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
-    font-weight: bold;
     text-transform: uppercase;
     transition: .3s;
 }
@@ -310,14 +311,14 @@ a.active {
 }
 
 .professional-experience-name {
-    font-size: 18px;
+    font-size: 17px;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
 
 .professional-experience-description {
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 6.5px;
@@ -327,9 +328,9 @@ a.active {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    font-size: 14px;  
+    font-size: 12px;  
     padding-bottom: 10px;
-    font-style: italic;
+    font-weight: 600;
 }
 
 /* CERTIFICATES */
@@ -380,7 +381,7 @@ a.active {
 
 .certificates-element {
     width: 350px;
-    height: 275px;
+    height: 100%;
     transition: .3s;
     border-radius: 8px;
     position: relative;
@@ -428,13 +429,14 @@ a.active {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 14.5px;
 }
 
 .certificates-date {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
+    padding-bottom: 10px;
     font-size: 13.5px;  
 }
 
@@ -606,7 +608,6 @@ a.active {
     border: 2px solid #000;
     border-radius: 8px;
     color: #000;
-    font-weight: bold;
     transition: .3s;
     text-align: center;
     width: 290px;

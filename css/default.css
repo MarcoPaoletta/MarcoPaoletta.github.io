@@ -256,10 +256,12 @@ a.active {
 }
 
 .professional-experience-row {
-    width: 100%;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     gap: 50px;
 }
 
@@ -332,7 +334,6 @@ a.active {
 
 /* TESTIMONIALS */
 .testimonials {
-    /* background: linear-gradient(#ff505c, #ff5080); */
     background: linear-gradient(#3b3b3bd8, rgba(0, 0, 0, 0.918)), url("/images/background-testimonials.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,7 +356,6 @@ a.active {
 .testimonials-person {
     font-size: 15.5px;
     font-weight: lighter;
-    /* font-weight: 450; */
     margin: auto;
     text-align: center;
 }

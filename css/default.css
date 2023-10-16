@@ -846,7 +846,7 @@ a.active {
 }
 
 @media screen and (max-width:408px) {
-    .social-networks {
+    .social-networks:first-child {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

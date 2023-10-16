@@ -39,7 +39,7 @@ p, a, ul, li {
 }
 
 #go-up-button:hover {
-    scale: 1.07;
+    scale: 1.2;
 }
 
 #go-up-button:active {
@@ -96,13 +96,13 @@ p, a, ul, li {
 }
 
 .idiom-a:hover {
-    color: #ff5080;
+    background-color: #ff5080;
+    padding: 2.5px;
 }
 
 a.active {
-    text-decoration: underline;
-    text-decoration-color: #ff505c;
-    text-decoration-thickness: 3px;
+    background-color: #ff505c;
+    padding: 2.5px;
 }
 
 .social-networks-a {
@@ -111,14 +111,11 @@ a.active {
     display: inline-block;
     margin-left: 10px;
     transition: .3s;
+    font-size: 20px;
 }
 
 .social-networks-a:hover {
     color: #ff5080;
-}
-
-.whatsapp {
-    margin-right: 15px;
 }
 
 .presentation {

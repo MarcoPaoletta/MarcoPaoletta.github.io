@@ -782,6 +782,28 @@ a.active {
     }
 }
 
+@media screen and (max-width:900px) {
+    .shake-it-and-find-it-gameplay {
+        background-image: url(/images/relevant_projects/ShakeItAndFIndItGameplay.png);
+    }
+
+    .circle-combat-gameplay {
+        background-image: url(/images/relevant_projects/CircleCombatGameplay.png);
+    }
+
+    .world-cup-collector-gameplay {
+        background-image: url(/images/relevant_projects/WorldCupCollectorGameplay.png);
+    }
+
+    .protect-the-ufo-gameplay {
+        background-image: url(/images/relevant_projects/ProtectTheUFOGameplay.png);
+    }
+
+    .swipe-never-stop-gameplay {
+        background-image: url(/images/relevant_projects/SwipeNeverStopGameplay.png);
+    }
+}
+
 @media screen and (max-width:414px) {
     .long-certificates-name {
         font-size: 12.5px;

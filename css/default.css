@@ -266,8 +266,8 @@ a.active {
 }
 
 .professional-experience-element {
-    width: 360px;
-    height: 228px;
+    width: 400px;
+    height: 100%;
     transition: .3s;
     border-radius: 8px;
     position: relative;
@@ -297,21 +297,39 @@ a.active {
     background-image: url(/images/professional_experience/Voodoo.png);
 }
 
+.professional-experience-image-youtube {
+    background-image: url(/images/professional_experience/YouTube.png);
+}
+
+.professional-experience-image-juicestutors {
+    background-image: url(/images/professional_experience/JuicesTutors.png);
+}
+
 .professional-experience-image-fiverr {
     background-image: url(/images/professional_experience/Fiverr.png);
 }
 
 .professional-experience-name {
+    font-size: 18px;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.professional-experience-description {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6.5px;
 }
 
 .professional-experience-date {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    font-size: 13px;  
+    font-size: 14px;  
+    padding-bottom: 10px;
+    font-style: italic;
 }
 
 /* CERTIFICATES */
@@ -760,12 +778,6 @@ a.active {
 
     .about-me-download-cv {
         margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 427px) {
-    .professional-experience-element {
-        height: 246.4px;
     }
 }
 

@@ -351,6 +351,9 @@ a.active {
     max-width: 1000px;
     margin-top: 15px;
     margin-bottom: 15px;
+    min-height: 210px;
+    display: flex;
+    align-items: center;
 }
 
 .testimonials-person {
@@ -359,6 +362,35 @@ a.active {
     margin: auto;
     text-align: center;
 }
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial {
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.testimonial.active {
+    display: block;
+    opacity: 1;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.arrow-left {
+    margin-right: 20px;
+}
+
+.arrow-right {
+    margin-left: 20px;
+}
+
 
 /* CERTIFICATES */
 .certificates {

@@ -371,7 +371,6 @@ a.active {
 
 .testimonial {
     display: none;
-    transition: opacity 0.5s;
 }
 
 .testimonial.active {

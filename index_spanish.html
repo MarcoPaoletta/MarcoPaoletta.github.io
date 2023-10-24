@@ -124,9 +124,20 @@
 
     <!-- TESTIMONIALS -->
     <section class="testimonials">
-        <i class="fa-solid fa-quote-left fa-xl" style="color: #ffffff;"></i>
-        <h4 class="testimonials-text">"Marco showed professional determination and dedication within the project we collaborated. He understood clearly the game mechanics and player engagement and followed given instructions to accomplish the encommended task. He showed skill, enthusiasm and good knowledge of minigames creation. Apart from that, communication was smooth and he took the project as his, giving it the same important it has for you. He showed he really loves the art and craft of creating games. Looking forward to collaborating with him in the future."</h4>
-        <h5 class="testimonials-person"><i>jcoll17. Cliente en Fiverr</i></h5>
+        <div class="slider">
+            <i class="fa-solid fa-chevron-left arrow arrow-left" onclick="changeTestimonial(-1)"></i>
+            <div class="testimonial active">
+                <i class="fa-solid fa-quote-left fa-xl" style="color: #ffffff;"></i>
+                <h4 class="testimonials-text">"Marco showed professional determination and dedication within the project we collaborated. He understood clearly the game mechanics and player engagement and followed given instructions to accomplish the recommended task. He showed skill, enthusiasm, and good knowledge of minigames creation. Apart from that, communication was smooth, and he took the project as his, giving it the same importance it has for you. He showed he really loves the art and craft of creating games. Looking forward to collaborating with him in the future."</h4>
+                <h5 class="testimonials-person"><i>jcoll17. Cliente en Fiverr</i></h5>
+            </div>
+            <div class="testimonial">
+                <i class="fa-solid fa-quote-left fa-xl" style="color: #ffffff;"></i>
+                <h4 class="testimonials-text">"Marco is a young man with a maturity and work ethic far beyond his years. Working with him from across the globe with a 5-hour time difference has been phenomenal. He is serious and conscientious and delivers quality work timeously. I have found him to be intelligent, humble, and diligent."</h4>
+                <h5 class="testimonials-person"><i>Brent van Rooyen. Fundador de JuicesTutors</i></h5>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow arrow-right" onclick="changeTestimonial(1)"></i>
+        </div>
     </section>
 
     <!-- CERTIFICATES -->
@@ -289,5 +300,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/go_up.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/testimonial_slider.js"></script>
+    <script type="text/javascript" src="js/responsive_testimonials_text.js"></script>
 </body>
 </html>

@@ -273,7 +273,6 @@ a.active {
     position: relative;
     overflow: hidden;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
-    transition: .3;
     background-color: #ffffff;
 }
 
@@ -382,11 +381,21 @@ a.active {
 }
 
 .arrow-left {
-    margin-right: 20px;
+    transition: .3s;
+    margin-right: 70px;
 }
 
 .arrow-right {
-    margin-left: 20px;
+    transition: .3s;
+    margin-left: 70px;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    scale: 1.4;
+}
+
+.arrow-left:active, .arrow-right:active {
+    scale: 1;
 }
 
 /* CERTIFICATES */
@@ -774,6 +783,24 @@ a.active {
 }
 
 /* RESPONSIVE */
+@media screen and (max-width:1210px) {
+    .arrow-left {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .arrow-right {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .testimonials-text {
+        max-width: 1070px;
+        font-size: 15.5px;
+        line-height: 28px;
+    }
+}
+
 @media screen and (max-width:1150px) {
     #links {
         display: none;
@@ -835,14 +862,6 @@ a.active {
 
     .about-me-download-cv {
         margin-top: 20px;
-    }
-}
-
-@media screen and (max-width:1025px)
-{
-    .testimonials-text {
-        margin-right: 25px;
-        margin-left: 25px;
     }
 }
 

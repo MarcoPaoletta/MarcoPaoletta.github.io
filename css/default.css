@@ -890,7 +890,7 @@ a.active {
 
 @media screen and (max-width:445px) {
     .testimonials-person.brent {
-        font-size: 11px;
+        margin-bottom: 15px;
     }
 }
 

@@ -1,6 +1,6 @@
 function adjustTextElements() {
     var firstText = document.querySelector(".testimonials-text");
-    var firstTextHeight = firstText.clientHeight;
+    var firstTextHeight = firstText.clientHeight - 15;
 
     var testimonialsTextElements = document.querySelectorAll(".testimonials-text");
     for (var i = 0; i < testimonialsTextElements.length; i++) {

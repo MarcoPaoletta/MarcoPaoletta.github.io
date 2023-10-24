@@ -1,4 +1,3 @@
-// script.js
 let currentIndex = 0;
 const testimonials = document.querySelectorAll('.testimonial');
 

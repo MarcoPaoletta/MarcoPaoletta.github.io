@@ -373,9 +373,8 @@ a.active {
     display: none;
 }
 
-.testimonial.active {
+.active {
     display: block;
-    opacity: 1;
 }
 
 .arrow {
@@ -389,7 +388,6 @@ a.active {
 .arrow-right {
     margin-left: 20px;
 }
-
 
 /* CERTIFICATES */
 .certificates {

@@ -360,6 +360,7 @@ a.active {
     font-weight: lighter;
     margin: auto;
     text-align: center;
+    height: 23.2px;
 }
 
 .slider {
@@ -884,6 +885,12 @@ a.active {
 
     .swipe-never-stop-gameplay {
         background-image: url(/images/relevant_projects/SwipeNeverStopGameplay.png);
+    }
+}
+
+@media screen and (max-width:445px) {
+    .testimonials-person.brent {
+        font-size: 11px;
     }
 }
 

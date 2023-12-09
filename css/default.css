@@ -559,28 +559,33 @@ a.active {
     margin-bottom: 30px;
 }
 
+.match-3-pass-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/Match3PassGameplay.gif);
+    background-size: cover;   
+}
+
 .shake-it-and-find-it-gameplay {
-    background-image: url(/images/relevant_projects/ShakeItAndFindIt.gif);
+    background-image: url(/images/relevant_projects/GameplayGifs/ShakeItAndFindItGameplay.gif);
     background-size: cover;   
 }
 
 .circle-combat-gameplay {
-    background-image: url(/images/relevant_projects/CircleCombatGameplay.gif);
+    background-image: url(/images/relevant_projects/GameplayGifs/CircleCombatGameplay.gif);
     background-size: cover;
 }
 
 .world-cup-collector-gameplay {
-    background-image: url(/images/relevant_projects/WorldCupCollectorGameplay.gif);
+    background-image: url(/images/relevant_projects/GameplayGifs/WorldCupCollectorGameplay.gif);
     background-size: cover;   
 }
 
 .protect-the-ufo-gameplay {
-    background-image: url(/images/relevant_projects/ProtectTheUFOGameplay.gif);
+    background-image: url(/images/relevant_projects/GameplayGifs/ProtectTheUFOGameplay.gif);
     background-size: cover;   
 }
 
 .swipe-never-stop-gameplay {
-    background-image: url(/images/relevant_projects/SwipeNeverStopGameplay.gif);
+    background-image: url(/images/relevant_projects/GameplayGifs/SwipeNeverStopGameplay.gif);
     background-size: cover;   
 }
 
@@ -642,28 +647,33 @@ a.active {
     font-size: 23px;
 }
 
+.match-3-pass-icon {
+    background-image: url(/images/relevant_projects/Icons/Match3PassIcon.jpg);
+    background-size: cover;     
+}
+
 .shake-it-and-find-it-icon {
-    background-image: url(/images/relevant_projects/ShakeItAndFindItIcon.png);
+    background-image: url(/images/relevant_projects/Icons/ShakeItAndFindItIcon.png);
     background-size: cover;    
 }
 
 .circle-combat-icon {
-    background-image: url(/images/relevant_projects/CircleCombatIcon.png);
+    background-image: url(/images/relevant_projects/Icons/CircleCombatIcon.png);
     background-size: cover;
 }
 
 .world-cup-collector-icon {
-    background-image: url(/images/relevant_projects/WorldCupCollectorIcon.jpg);
+    background-image: url(/images/relevant_projects/Icons/WorldCupCollectorIcon.jpg);
     background-size: cover;
 }
 
 .protect-the-ufo-icon {
-    background-image: url(/images/relevant_projects/ProtectTheUFOIcon.jpg);
+    background-image: url(/images/relevant_projects/Icons/ProtectTheUFOIcon.jpg);
     background-size: cover;
 }
 
 .swipe-never-stop-icon {
-    background-image: url(/images/relevant_projects/SwipeNeverStopIcon.png);
+    background-image: url(/images/relevant_projects/Icons/SwipeNeverStopIcon.png);
     background-size: cover;
 }
 
@@ -867,24 +877,27 @@ a.active {
 }
 
 @media screen and (max-width:900px) {
+    .match-3-pass-gameplay {
+        background-image: url(/images/relevant_projects/GameplayPngs/Match3PassGameplay.png);
+    }
     .shake-it-and-find-it-gameplay {
-        background-image: url(/images/relevant_projects/ShakeItAndFIndItGameplay.png);
+        background-image: url(/images/relevant_projects/GameplayPngs/ShakeItAndFIndItGameplay.png);
     }
 
     .circle-combat-gameplay {
-        background-image: url(/images/relevant_projects/CircleCombatGameplay.png);
+        background-image: url(/images/relevant_projects/GameplayPngs/CircleCombatGameplay.png);
     }
 
     .world-cup-collector-gameplay {
-        background-image: url(/images/relevant_projects/WorldCupCollectorGameplay.png);
+        background-image: url(/images/relevant_projects/GameplayPngs/WorldCupCollectorGameplay.png);
     }
 
     .protect-the-ufo-gameplay {
-        background-image: url(/images/relevant_projects/ProtectTheUFOGameplay.png);
+        background-image: url(/images/relevant_projects/GameplayPngs/ProtectTheUFOGameplay.png);
     }
 
     .swipe-never-stop-gameplay {
-        background-image: url(/images/relevant_projects/SwipeNeverStopGameplay.png);
+        background-image: url(/images/relevant_projects/GameplayPngs/SwipeNeverStopGameplay.png);
     }
 }
 

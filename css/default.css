@@ -256,7 +256,7 @@ a.active {
 }
 
 .professional-experience-row {
-    max-width: 1000px;
+    max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -300,6 +300,10 @@ a.active {
     background-image: url(/images/professional_experience/YouTube.png);
 }
 
+.professional-experience-image-aoni {
+    background-image: url(/images/professional_experience/Aoni.png);
+}
+
 .professional-experience-image-juicestutors {
     background-image: url(/images/professional_experience/JuicesTutors.png);
 }
@@ -313,6 +317,10 @@ a.active {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.aoni-experience-name {
+    font-size: 19px;
 }
 
 .professional-experience-description {

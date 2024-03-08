@@ -63,7 +63,7 @@ p, a, ul, li {
 }
 
 .header-content {
-    max-width: 1275px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;

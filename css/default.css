@@ -88,7 +88,12 @@ p, a, ul, li {
     color: #ff5080;
 }
 
+.idioms-container {
+    display: flex;
+}
+
 .idiom-a {
+    padding: 5px;
     margin-left: 15px;
     text-decoration: none;
     color: #fff;
@@ -97,12 +102,10 @@ p, a, ul, li {
 
 .idiom-a:hover {
     background-color: #ff5080;
-    padding: 2.5px;
 }
 
 a.active {
     background-color: #ff505c;
-    padding: 2.5px;
 }
 
 .social-networks-a {
@@ -949,10 +952,6 @@ a.active {
     .social-networks:first-child {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .idiom-a {
-        display: grid;
     }
 
     nav.responsive {

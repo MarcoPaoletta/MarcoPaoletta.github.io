@@ -864,9 +864,8 @@ a.active {
         background-color: rgba(0, 0, 0, .8);
         width: 100%;
         position: absolute;
-        top: 44px;
+        top: 55px;
         left: 0;
-        padding: 10px 0;
     }
 
     nav.responsive ul {
@@ -964,7 +963,7 @@ a.active {
     }
 
     nav.responsive {
-        top: 55px;
+        top: 70px;
     }
 }
 

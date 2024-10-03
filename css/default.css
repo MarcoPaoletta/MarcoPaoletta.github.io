@@ -939,6 +939,12 @@ a.active {
     }
 }
 
+@media screen and (max-width:550px) {
+    .social-networks-end {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width:445px) {
     .testimonials-person.brent {
         margin-bottom: 35px;
@@ -992,6 +998,9 @@ a.active {
     .project-source-code-container {
         margin-top: 7px;
     } 
+    .social-networks-end {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:300px) {

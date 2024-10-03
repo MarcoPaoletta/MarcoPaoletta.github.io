@@ -861,10 +861,10 @@ a.active {
 
     nav.responsive {
         display: block;
-        background-color: rgba(0, 0, 0, .8);
+        background-color: rgba(0, 0, 0, .85);
         width: 100%;
         position: absolute;
-        top: 55px;
+        top: 54px;
         left: 0;
     }
 
@@ -964,10 +964,6 @@ a.active {
     .social-networks:first-child {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    nav.responsive {
-        top: 70px;
     }
 }
 

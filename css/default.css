@@ -936,6 +936,10 @@ a.active {
     .swipe-never-stop-gameplay {
         background-image: url(/images/relevant_projects/GameplayPngs/SwipeNeverStopGameplay.png);
     }
+
+    .barrel-blitz-gameplay {
+        background-image: url(/images/relevant_projects/GameplayPngs/BarrelBlitz.png);
+    }
 }
 
 @media screen and (max-width:550px) {

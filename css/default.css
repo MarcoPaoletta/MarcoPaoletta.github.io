@@ -552,7 +552,14 @@ a.active {
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 3px;
-    padding-bottom: 25px;
+    padding-bottom: 12.5px;
+}
+
+.projects-subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: #111135;
+    padding-bottom: 12.5px;
 }
 
 .projects-voodoo-title {

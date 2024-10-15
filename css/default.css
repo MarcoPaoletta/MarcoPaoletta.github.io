@@ -494,6 +494,10 @@ a.active {
     background-image: url(/images/certificates/Fiverr.jpg);
 }
 
+.certificate-image7 {
+    background-image: url(/images/certificates/communication-event.jpg);
+}
+
 .certificates-name {
     margin-right: 10px;
     margin-left: 10px;

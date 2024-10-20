@@ -498,6 +498,10 @@ a.active {
     background-image: url(/images/certificates/communication-event.jpg);
 }
 
+.certificate-image8 {
+    background-image: url(/images/certificates/unity-2d.png);
+}
+
 .certificates-name {
     margin-right: 10px;
     margin-left: 10px;

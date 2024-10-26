@@ -449,7 +449,7 @@ a.active {
 }
 
 .certificates-element {
-    width: 300px;
+    width: 320px;
     height: 310px;
     transition: .3s;
     border-radius: 8px;
@@ -502,6 +502,10 @@ a.active {
     background-image: url(/images/certificates/unity-2d.png);
 }
 
+.certificate-image9 {
+    background-image: url(/images/certificates/finish-it.png);
+}
+
 .certificates-name {
     margin-right: 10px;
     margin-left: 10px;
@@ -509,11 +513,14 @@ a.active {
     font-size: 14.5px;
 }
 
-.certificates-date {
-    margin-right: 10px;
+.certificates-information {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    /* margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
     font-size: 13.5px;  
 }
 

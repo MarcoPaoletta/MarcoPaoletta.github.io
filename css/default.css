@@ -20,6 +20,10 @@ p, a, ul, li {
     font-weight: 500;
 }
 
+a {
+    color: #ff505c;
+}
+
 /* GO UP BUTTON */
 #go-up-button {
     position: fixed;
@@ -357,7 +361,7 @@ a.active {
 
 .certificates-subtitle {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 

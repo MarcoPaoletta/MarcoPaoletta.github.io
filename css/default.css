@@ -466,6 +466,10 @@ a.active {
     background-image: url(/images/certificates/unity-skill-builder.jpg);
 }
 
+.certificate-image16 {
+    background-image: url(/images/certificates/godot-mobile.jpg);
+}
+
 .certificates-name {
     margin-right: 10px;
     margin-left: 10px;

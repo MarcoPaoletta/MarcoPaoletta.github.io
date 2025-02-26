@@ -277,13 +277,13 @@ a.active {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    gap: 50px;
+    gap: 25px;
 }
 
 .professional-experience-element {
     width: 400px;
     height: 100%;
+    margin-bottom: 25px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
@@ -320,8 +320,8 @@ a.active {
     background-image: url(/images/professional_experience/Zenva.png);
 }
 
-.professional-experience-image-fiverr {
-    background-image: url(/images/professional_experience/Fiverr.png);
+.professional-experience-image-udemy {
+    background-image: url(/images/professional_experience/Udemy.png);
 }
 
 .professional-experience-name {

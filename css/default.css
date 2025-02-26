@@ -518,10 +518,39 @@ a.active {
     margin-bottom: 16px;
 }
 
+/* TESTIMONIAL */
+.testimonial {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/background-testimonial.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+  
+.testimonial-quote {
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+  
+.testimonial-quote footer {
+    margin-top: 15px;
+    font-size: 1em;
+    font-style: normal;
+    color: #ccc;
+}
+
 /* PROJECTS */
 .projects {
     padding: 35px 5px;
     margin: auto;
+    background-color: #f3f3f3;
 }
 
 .projects-main-title {

@@ -183,10 +183,11 @@ a.active {
 
 /* ABOUT ME */
 #about-me {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
     padding: 35px;
     display: flex;   
+    gap: 20px;
 }
 
 .photo-container {
@@ -194,13 +195,13 @@ a.active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 900px;
 }
   
 .photo-container-img {
     padding: 8px;
-    border-radius: 13px;
-    width: 80%;
+    border-radius: 10px;
+    width: 90%;
     background-color: #f3f3f3;
 }  
 
@@ -216,6 +217,14 @@ a.active {
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 3px;
+}
+
+.about-me-subtitle {
+    font-size: 22.5px;  
+    color: #111135;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .about-me-name-span {
